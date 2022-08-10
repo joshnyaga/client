@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.css";
 import image from "../../images/ecommerce.jpg";
+import { Link } from "react-router-dom";
+import Links from "../../Components/Links";
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
           <div className="img-container">
             <img src={image} />
           </div>
-          {/* links */}
+          <Links />
         </div>
       </div>
     </section>

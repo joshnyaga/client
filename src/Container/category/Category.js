@@ -1,4 +1,5 @@
 import React from "react";
+import Links from "../../Components/Links";
 import Product from "../../Components/Product";
 
 import "./category.css";
@@ -6,7 +7,7 @@ export default function Category() {
   return (
     <section>
       <div className="category-container">
-        <div className="left">
+        <div className="left-category">
           <div className="filters">
             <input type="number" placeholder="Price below" />
             <select name="brand" id="brand">
@@ -22,7 +23,7 @@ export default function Category() {
             <Product />
           </div>
         </div>
-        <div className="right">
+        <div className="right-category">
           <h3>Categories</h3>
           <ul>
             <li>
@@ -38,6 +39,7 @@ export default function Category() {
               <a href="#">Socks</a>
             </li>
           </ul>
+          <Links />
         </div>
       </div>
     </section>

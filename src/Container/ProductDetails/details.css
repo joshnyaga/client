@@ -4,31 +4,31 @@
   flex-wrap: wrap-reverse;
   padding: 2rem 10rem;
 }
-.left {
+.left-details {
   flex: 1 1 30rem;
 }
-.right {
+.right-details {
   flex: 1 1 10rem;
   position: relative;
 }
-.right img {
+.right-details img {
   width: 100%;
   object-fit: cover;
 }
-.left h1 {
+.left-details h1 {
   text-align: center;
   line-height: 2rem;
 }
-.left p {
+.left-details p {
   font-size: 1rem;
   opacity: 0.7;
   line-height: 2rem;
 }
-.left .brands {
+.left-details .brands {
   display: flex;
   gap: 2rem;
 }
-.left .brands p {
+.left-details .brands p {
   background-color: var(--pale-blue);
   padding: 0.1rem 0.8rem;
   border-radius: 30px;

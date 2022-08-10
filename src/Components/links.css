@@ -1,0 +1,14 @@
+.quick-links {
+  display: flex;
+  gap: 1rem;
+  color: black;
+  padding: 2rem 0;
+}
+.quick-links a {
+  color: var(--pink);
+  text-decoration: none;
+}
+.quick-links a:hover {
+  color: var(--dark-pink);
+  border-bottom: 1px solid black;
+}

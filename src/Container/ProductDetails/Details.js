@@ -1,11 +1,12 @@
 import React from "react";
+import Links from "../../Components/Links";
 import shoe from "../../images/shoes.jpg";
 import "./details.css";
 export default function Details() {
   return (
     <section>
       <div className="container-details">
-        <div className="left">
+        <div className="left-details">
           <h1>Shoe name</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -26,8 +27,9 @@ export default function Details() {
           </div>
           <button className="btn">Add to cart</button>
         </div>
-        <div className="right">
+        <div className="right-details">
           <img src={shoe} />
+          <Links />
         </div>
       </div>
     </section>
