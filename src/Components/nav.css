@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 10rem;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+}
+.logo-container img {
+  max-width: 80px;
+}
+.links {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+}
+.links a:hover {
+  background-color: var(--pale-blue);
+}
+
+@media (max-width: 678px) {
+  .navbar {
+    margin: 1rem 2rem;
+  }
+}

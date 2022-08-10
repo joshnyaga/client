@@ -1,0 +1,53 @@
+.container-details {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap-reverse;
+  padding: 2rem 10rem;
+}
+.left {
+  flex: 1 1 30rem;
+}
+.right {
+  flex: 1 1 10rem;
+  position: relative;
+}
+.right img {
+  width: 100%;
+  object-fit: cover;
+}
+.left h1 {
+  text-align: center;
+  line-height: 2rem;
+}
+.left p {
+  font-size: 1rem;
+  opacity: 0.7;
+  line-height: 2rem;
+}
+.left .brands {
+  display: flex;
+  gap: 2rem;
+}
+.left .brands p {
+  background-color: var(--pale-blue);
+  padding: 0.1rem 0.8rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  width: 10rem;
+  margin: 0 auto;
+  background-color: var(--pale-blue);
+  border: none;
+}
+.btn:hover {
+  background-color: var(--yellow);
+}
+.rating {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  color: var(--yellow);
+}

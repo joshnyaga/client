@@ -1,0 +1,44 @@
+.container-home {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 10rem;
+}
+.info {
+  flex: 1 1 30rem;
+}
+.image {
+  flex: 1 1 30rem;
+}
+.img-container {
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.info h1 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.info h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.info h3 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 678px) {
+  .container-home {
+    padding: 1rem 2rem;
+  }
+}
