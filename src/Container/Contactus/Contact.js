@@ -1,6 +1,6 @@
 import React from "react";
 import Links from "../../Components/Links";
-import shoe from "../../images/shoes.jpg";
+import thanks from "../../images/thanks.jpg";
 import "./contact.css";
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
           <button className="btn">Contact us</button>
         </div>
         <div className="right-contact">
-          <img src={shoe} />
+          <img src={thanks} />
           <Links />
         </div>
       </div>
