@@ -7,7 +7,7 @@ export default function Details() {
     <section>
       <div className="container-details">
         <div className="left-details">
-          <h1>Shoe name</h1>
+          <h1>Kitten Heels.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Consequatur nostrum reiciendis, natus excepturi rem accusamus quos

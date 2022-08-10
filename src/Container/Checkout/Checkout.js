@@ -15,7 +15,7 @@ export default function Checkout() {
           <div className="header-text">Order-summary</div>
           <div className="p-name">
             <p>Name</p>
-            <span>Shoe</span>
+            <span>Kitten Heels</span>
           </div>
           <div className="p-name">
             <p>Price</p>
